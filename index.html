@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hello, world!</title>
+  <title>Pawmeals</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 <body>
 
 <header>    
   <nav class="navbar">
-    <a href="#" class="logo">
-      <img src="/img/logo.png" alt="Landing Page logo">
-    </a>
+   <div class="containwidth">
+     <a href="#" class="logo">
+       <img src="./assets/img/logo.png" alt="Landing Page logo">
+     </a>
+   </div class="containwidth">
     <ul class="nav-links">
       <li class="nav-item"><a href="#">Download</a></li>
       <li class="nav-item"><a href="#">About Us</a></li>
       <li class="nav-item"><a href="#">Careers</a></li>
       <li class="nav-item"><a href="#">API</a></li>
-      <li class="nav-item"><a href="#">@</a></li>
+      <li class="nav-item"><a href="#">Widgets</a></li>
+      <li class="nav-item"><a href="#"> </a></li>
 
     </ul>
   </nav>
@@ -30,34 +34,37 @@
 
     <div class="flex-parent">
       <div class="hero-left flex-child ">
-        <h1>Get the best nutrition for the best doggo </h1>
-        <p>Take the stress out of finding the right food for your furry friend. We did the heavy lifting and designed an API to compare dog food products quickly and easily. </p>
-        <button>Get Started</button>
+        <h1>The best nutrition for our best friends </h1>
+        <p>Take the stress out of finding the right food for your furry friend. We did the heavy lifting and designed an API to compare pet food products quickly and easily. </p>
+
+        <button class="name noselect">GET STARTED</button>
+
+
       </div>
       <div class="hero-right flex-child">
-        <img id="hero-img" src="img/hero.svg">
+        <img id="hero-img" src="./assets/img/hero.svg">
       </div>
     </div>
   </div> 
 
 <div class="cards-container">
-    <h2>This is what we do. </h2>
+    <h2>It's what we do. </h2>
     <div class=cards-flex-container>
       <div class ="card">
-          <div class="flex-child-img"><img src="img/carda.svg"></div>
+          <div class="flex-child-img"><img src="./assets/img/carda.svg"></div>
         <div class="flex-child-p"><p>Our API makes it easy to compare petfood nutritional information</p></div> 
       </div>   
       <div class ="card">
-        <div class="flex-child-img"><img src="img/cardb.svg"></div>
+        <div class="flex-child-img"><img src="./assets/img/cardb.svg"></div>
       <div class="flex-child-p"><p>Leverages machine learning to make quick decisions so your users dont have to.</p></div> 
     </div>   
     <div class ="card">
-      <div class="flex-child-img"><img src="img/cardc.svg"></div>
-    <div class="flex-child-p"><p>We understand pet-nutrition and esoteric formula names</p></div> 
+      <div class="flex-child-img"><img src="./assets/img/cardc.svg"></div>
+    <div class="flex-child-p"><p>We "get" pet-nutrition and esoteric formula names. Our algorithm does too.</p></div> 
   </div>   
   <div class ="card">
-    <div class="flex-child-img"><img src="img/cardd.svg"></div>
-  <div class="flex-child-p"><p>Selecting the right dog food has never been easier</p></div> 
+    <div class="flex-child-img"><img src="./assets/img/cardd.svg"></div>
+  <div class="flex-child-p"><p>Selecting the right dog food has never been easier. </p></div> 
 </div>   
      
     </div>
@@ -66,19 +73,18 @@
   <div class="quote-container">
       <div>
       <h2 id="wide-quote">
-Oh my goodness... This quote gets stoked. I hope my super cool neato clients love it as much as I do. What an awesome thing to think about. I wish other people thought about this too! - Now they can.     </h2>
-      <p id="attribution">
-        -Steve Apple III
+        “The food you eat can be either the safest and most powerful form of medicine or the slowest form of poison.”      <p id="attribution">
+          ― Ann Wigmore
       </p>
     </div>
   </div>
 
   <div class="call-to-action-container flex-parent">
     <div class="flex-child">
-      <h3>Call to action! It's Time!</h3>
-      <p>Sign up for our product by clicking that button right over there!</p>
+      <h3>What are you waiting for? It's Time!</h3>
+      <p>Join other developers and start the journey today!</p>
     </div>
-    <div class="flex-child"> 
+    <div class="containwidth flex-child"> 
       <button id="signupbutton">Sign up</button>
     </div>
   </div>
