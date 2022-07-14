@@ -9,17 +9,18 @@
 </head>
 <body>
 
-<div class="hero">
 <header>    
   <nav class="navbar">
     <a href="#" class="logo">
       <img src="/img/logo.png" alt="Landing Page logo">
     </a>
     <ul class="nav-links">
-      <li class="nav-item"><a href="#">Item</a></li>
-      <li class="nav-item"><a href="#">Item</a></li>
-      <li class="nav-item"><a href="#">Item</a></li>
-      <li class="nav-item"><a href="#">Another Item</a></li>
+      <li class="nav-item"><a href="#">Download</a></li>
+      <li class="nav-item"><a href="#">About Us</a></li>
+      <li class="nav-item"><a href="#">Careers</a></li>
+      <li class="nav-item"><a href="#">API</a></li>
+      <li class="nav-item"><a href="#">@</a></li>
+
     </ul>
   </nav>
 
@@ -29,47 +30,46 @@
 
     <div class="flex-parent">
       <div class="hero-left flex-child ">
-        <h1>This Website is Awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller fond and the color is lower in contrast</p>
-        <button>Sign up</button>
+        <h1>Get the best nutrition for the best doggo </h1>
+        <p>Take the stress out of finding the right food for your furry friend. We did the heavy lifting and designed an API to compare dog food products quickly and easily. </p>
+        <button>Get Started</button>
       </div>
       <div class="hero-right flex-child">
-        <img src="img/hero.svg">
+        <img id="hero-img" src="img/hero.svg">
       </div>
     </div>
   </div> 
-</div>
 
 <div class="cards-container">
-    <h2>Some random information.</h2>
+    <h2>What we do. </h2>
     <div class=cards-flex-container>
       <div class ="card">
-        <img class="imgbox" src="img/carda.svg">
-        <p>TimageThis is somes somes somes somes somes somes somes somes somes somes somes somes somes some subtext under an illustration or image</p>
-      </div>    
+          <div class="flex-child-img"><img src="img/carda.svg"></div>
+        <div class="flex-child-p"><p>Our API makes it easy to compare petfood nutritional information</p></div> 
+      </div>   
       <div class ="card">
-        <img class="imgbox" src="img/cardb.svg">
-        <p>This is some subtext under an illustration or image</p>
-      </div>    
-      <div class ="card">
-        <img class="imgbox" src="img/cardc.svg">
-        <p>This is some subtext under an illustration or image</p>
-      </div>
-      <div class ="card">
-        <img class="imgbox" src="img/cardd.svg">
-        <p>This is some subtext under an illustration or image</p>
-      </div>        
+        <div class="flex-child-img"><img src="img/cardb.svg"></div>
+      <div class="flex-child-p"><p>Leverages machine learning to make quick decisions so your users dont have to.</p></div> 
+    </div>   
+    <div class ="card">
+      <div class="flex-child-img"><img src="img/cardc.svg"></div>
+    <div class="flex-child-p"><p>We understand pet-nutrition and esoteric formula names</p></div> 
+  </div>   
+  <div class ="card">
+    <div class="flex-child-img"><img src="img/cardd.svg"></div>
+  <div class="flex-child-p"><p>Selecting the right dog food has never been easier</p></div> 
+</div>   
+     
     </div>
   </div>
 
   <div class="quote-container">
       <div>
       <h2 id="wide-quote">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.
-      </h2>
-      <span id="attribution">
-        -Thor, God of Thunder
-      </span>
+Oh my goodness... This quote gets stoked. I hope my super cool neato clients love it as much as I do. What an awesome thing to think about. I wish other people thought about this too! - Now they can.     </h2>
+      <p id="attribution">
+        -Steve Apple III
+      </p>
     </div>
   </div>
 
@@ -79,12 +79,11 @@
       <p>Sign up for our product by clicking that button right over there!</p>
     </div>
     <div class="flex-child"> 
-      <button>Sign up</button>
+      <button id="signupbutton">Sign up</button>
     </div>
   </div>
 
   <div class="footer">
-    <span>Copyright The Odin Project 2021</span>
+    <span>Copyright PawMeals.io 2022</span>
   </div>
 </body>
-</html>  

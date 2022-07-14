@@ -12,16 +12,18 @@
     flex-direction: column;
     justify-content: center;
 }
-  
+  p {
+    font-weight: 300;
+    margin-top: 1rem;
+    line-height: 160%
+  }
   .navbar {
     display: flex;
-    padding: 20px;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
     background-color: #1f2937;
-    padding-left: 30px;
-    padding-right: 10px;
+    gap: 1px;
   }
  
   
@@ -63,10 +65,14 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        gap: 3rem;
     }
 
-    .hero-left, .hero-right{
-        flex-shrink: 1;
+
+    .hero #hero-img {
+        border-radius: 2%;
+        padding: 20px 50px;
+        background-color: rgb(179, 187, 187);
     }
 
     button {
@@ -84,38 +90,70 @@
     }
     
     .cards-flex-container{
-        margin: 100px;
+        margin: 5rem;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
-        gap: 0rem;
     }
 
     .card {
+        padding: 2%;
+        flex: 1;
         text-align:center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        row-gap: 2rem;
     }
 
-    .card .imgbox {
+    .card .flex-child-img {
+        padding: 6%;
+        height: 10rem;
+        width: 10rem;
         border:#3882f6 1px solid;
-        min-block-size: 200px;
-        max-block-size: 200px;
+        border-radius: 10px;
     }
 
-    .card p {
-        max-width: 70%;
+    .card .flex-child-p {
+        max-width: 80%;
     }
 
     .quote-container {
+        color: #1f2937
+        display: flex;
+        flex-direction:row;
+        align-items: center;
         padding: 6rem;
         background: lightgrey;
     }
 
+    .quote-container h2 {
+        font-size: 1.3rem;
+        font:400;
+        font-style: italic;
+        font-weight: 200;
+    }
+
     .call-to-action-container {
+     
+        margin: 4rem 1rem;
+        padding: 2rem;
         color: white;
-        padding: 2rem 5rem;
-        margin: 2rem 5rem;
         background: #3882f6;
+    }
+
+    .footer {
+        padding: 3rem;
+        text-align: center;
+        color: white;
+        background-color:#1f2937;
+    }
+
+    .quote-container #attribution {
+        margin: 0;
+        font-weight: 900;
+        text-align: right;
+    }
+    
+    #signupbutton {
+        align-self: 
     }
