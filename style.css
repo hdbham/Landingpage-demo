@@ -33,6 +33,7 @@
   }
   
   .nav-item a {
+    font-size: 1.4rem;
     line-height: 1.9rem;
     padding: 13px 15px;
     text-decoration: none;
@@ -48,7 +49,7 @@
   }
   
   .logo img {
-    width: 175px;
+    padding-left:3rem;
     vertical-align: middle;
   }
 
@@ -97,7 +98,7 @@
     }
     
     .cards-flex-container{
-        padding: 3rem;
+        padding: 1rem 5rem 8rem 5rem;
         margin: 5rem;
         display: flex;
         flex-direction: row;
@@ -134,21 +135,21 @@
     .quote-container {
         color: #1f2937
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         align-items: center;
+        padding: 8rem;
         background: lightgrey;
     }
 
     .quote-container h2 {
-        width: 30%;
-        font-size: 1.3rem;
+                font-size: 1.3rem;
         font-style: italic;
         font-weight: lighter;
     }
 
     .call-to-action-container {
-     
-        margin: 4rem 3rem;
+        border: solid pink 2px;
+        margin: 8rem 3rem;
         padding: 4rem;
         color: white;
         background: #3882f6;
@@ -168,5 +169,5 @@
     }
     
     #signupbutton {
-        align-self: 
+    margin-top:20px;
     }
