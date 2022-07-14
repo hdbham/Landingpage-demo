@@ -1,0 +1,121 @@
+
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1f2937;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+ 
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-item:hover {
+    background-color: white;
+  }
+  
+  .nav-item:hover a {
+    color: #3882f6;
+  }
+  
+  .logo img {
+    width: 175px;
+    vertical-align: middle;
+  }
+
+  .hero {
+    color: white;
+    min-height: 24rem;
+    background-color:#1f2937;
+}
+    .hero h1 {
+            font-size: 2.5rem;
+        }
+
+    .hero .flex-parent {
+        margin: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .hero-left, .hero-right{
+        flex-shrink: 1;
+    }
+
+    button {
+        margin-top: 1rem;
+        min-width: 7rem;
+        min-height: 2rem;
+        color: white;
+        border-radius: 15%;
+        box-shadow: none;
+        background-color: #3882f6;
+    }
+    h2, span{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .cards-flex-container{
+        margin: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 0rem;
+    }
+
+    .card {
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card .imgbox {
+        border:#3882f6 1px solid;
+        min-block-size: 200px;
+        max-block-size: 200px;
+    }
+
+    .card p {
+        max-width: 70%;
+    }
+
+    .quote-container {
+        padding: 6rem;
+        background: lightgrey;
+    }
+
+    .call-to-action-container {
+        color: white;
+        padding: 2rem 5rem;
+        margin: 2rem 5rem;
+        background: #3882f6;
+    }
