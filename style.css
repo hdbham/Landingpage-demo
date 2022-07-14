@@ -18,12 +18,12 @@
     line-height: 160%
   }
   .navbar {
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
     background-color: #1f2937;
-    gap: 1px;
   }
  
   
@@ -33,7 +33,8 @@
   }
   
   .nav-item a {
-    padding: 10px 15px;
+    line-height: 1.9rem;
+    padding: 13px 15px;
     text-decoration: none;
     color: white;
   }
@@ -52,6 +53,7 @@
   }
 
   .hero {
+    padding: 7rem;
     color: white;
     min-height: 24rem;
     background-color:#1f2937;
@@ -61,11 +63,16 @@
         }
 
     .hero .flex-parent {
-        margin: 100px;
+        padding: 10px;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         gap: 3rem;
+    }
+
+    .hero .hero-left {
+        max-width:40rem;
     }
 
 
@@ -76,8 +83,8 @@
     }
 
     button {
-        margin-top: 1rem;
-        min-width: 7rem;
+        margin-top: 3rem;
+        min-width: 9rem;
         min-height: 2rem;
         color: white;
         border-radius: 15%;
@@ -90,53 +97,59 @@
     }
     
     .cards-flex-container{
+        padding: 3rem;
         margin: 5rem;
         display: flex;
         flex-direction: row;
+        gap: 1rem;
+        justify-content: space-around;
+
     }
 
     .card {
-        padding: 2%;
         flex: 1;
         text-align:center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
 
     .card .flex-child-img {
-        padding: 6%;
-        height: 10rem;
-        width: 10rem;
+        height: 15rem;
+        width: 15rem;
         border:#3882f6 1px solid;
         border-radius: 10px;
     }
 
+    .flex-child-img img{
+        height: 90%;
+        width: 80%;
+    }
+
     .card .flex-child-p {
-        max-width: 80%;
+         max-width: 80%;
     }
 
     .quote-container {
         color: #1f2937
         display: flex;
-        flex-direction:row;
+        flex-direction: column;
         align-items: center;
-        padding: 6rem;
         background: lightgrey;
     }
 
     .quote-container h2 {
+        width: 30%;
         font-size: 1.3rem;
-        font:400;
         font-style: italic;
-        font-weight: 200;
+        font-weight: lighter;
     }
 
     .call-to-action-container {
      
-        margin: 4rem 1rem;
-        padding: 2rem;
+        margin: 4rem 3rem;
+        padding: 4rem;
         color: white;
         background: #3882f6;
     }
